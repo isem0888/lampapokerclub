@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp Poker Club</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f2f2f2;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #f9d71c; /* Цвет лампы */
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #f9d71c;
+            border-bottom: 2px solid #f9d71c;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .tournaments {
+            list-style: none;
+            padding: 0;
+        }
+
+        .tournaments li {
+            background: #444;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #333;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        a {
+            color: #f9d71c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .form-container {
+            background: #444;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .form-container label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .form-container input, .form-container textarea, .form-container button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            background-color: #f9d71c;
+            color: #1a1a1a;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #e0c617;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lamp Poker Club</h1>
+    <p>Ваш лучший выбор для захватывающих покерных турниров</p>
+</header>
+
+<div class="container">
+    <div class="image-container">
+     <img src="photo_2024-09-23_12-00-23.jpg" alt="Lamp Poker Club" style="max-width: 100%; height: auto;">
+
+
+    </div>
+
+    <section class="section" id="about">
+        <h2>О клубе</h2>
+        <p>Добро пожаловать в Lamp Poker Club — место, где страсть к покеру соединяется с уютной атмосферой. Мы организуем профессиональные турниры для игроков любого уровня.</p>
+    </section>
+
+    <section class="section" id="tournaments">
+        <h2>Ближайшие турниры</h2>
+        <ul class="tournaments">
+            <li>
+                <strong>Дата:</strong> 25 декабря 2024<br>
+                <strong>Гарантия:</strong> 30,000 грн<br>
+                <strong>Бай-ин:</strong> 1,000 грн
+            </li>
+            <li>
+                <strong>Дата:</strong> 1 января 2025<br>
+                <strong>Гарантия:</strong> 50,000 грн<br>
+                <strong>Бай-ин:</strong> 1,000 грн
+            </li>
+        </ul>
+    </section>
+
+    <section class="section" id="signup">
+        <h2>Заявка на участие</h2>
+        <div class="form-container">
+            <form action="#" method="post">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+
+                <label for="tournament">Название турнира</label>
+                <input type="text" id="tournament" name="tournament" placeholder="Введите название турнира" required>
+
+                <label for="message">Комментарий</label>
+                <textarea id="message" name="message" placeholder="Введите комментарий" rows="4"></textarea>
+
+                <button type="submit">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="section" id="contacts">
+        <h2>Контакты</h2>
+        <p><strong>Адрес:</strong> Запорожье, ул. Пр.Соборный, 111</p>
+        <p><strong>Email:</strong> <a href="mailto:info@lamppokerclub.com">info@lamppokerclub.com</a></p>
+        <p><strong>Телефон:</strong> +380 (99) 478-64-59</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Lamp Poker Club. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
